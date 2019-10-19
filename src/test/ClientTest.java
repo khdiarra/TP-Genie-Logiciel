@@ -21,5 +21,13 @@ class ClientTest {
 		assertEquals("Khadi", client.getNom());
 		assertNotEquals("Khadi2", client.getNom());
 	}
+	
+	@Test
+	void getPaiementTest() {
+		Client client = new Client("Khadi","Cheque", "bla", "Bllala");
+		assertEquals("Cheque", client.getPaiement());
+		assertNotEquals("Chequ", client.getPaiement());
+		
+	}
 
 }

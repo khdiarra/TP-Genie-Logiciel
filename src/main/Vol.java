@@ -63,6 +63,7 @@ public class Vol {
 	public void fermer() {
 		this.ouvert=false;
 		
+		
 	}
 
 }
