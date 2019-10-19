@@ -1,5 +1,5 @@
 package main;
-
+//author Diarra Khadidiatou
 public class Client {
 	private String nom;
 	private String paiement;

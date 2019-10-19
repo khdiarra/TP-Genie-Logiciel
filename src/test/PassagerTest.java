@@ -1,4 +1,5 @@
 package test;
+//author Diarra Khadidiatou
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
